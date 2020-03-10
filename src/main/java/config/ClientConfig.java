@@ -13,9 +13,13 @@ public class ClientConfig{
 
     private String serverAddress;
 
+    private String ipv4LocalAddress;
+
+    private String ipv6LocalAddress;
+
     private int port;
 
-    private String Token;
+    private String Name;
 
     private List<ConfigEntity> list;
 }
